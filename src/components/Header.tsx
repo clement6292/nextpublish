@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-blue-600 text-white">
+    <header className=" text-black">
       <div className="mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
         <Link href="/" className="text-lg font-semibold hover:text-blue-100 transition">
           NextPublish
